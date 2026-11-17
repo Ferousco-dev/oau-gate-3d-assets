@@ -1,0 +1,575 @@
+{
+  "asset": "AR_OAUGate_WithRoad",
+  "generated": "2026-11-17T20:32:20",
+  "blender": "5.2.0 LTS",
+  "source": "AR_OAUGate/AR_OAUGate_master.blend",
+  "target_engine": "unity",
+  "units": {
+    "system": "METRIC",
+    "scale_length": 1.0,
+    "authoring_up": "Z",
+    "authoring_forward": "-Y",
+    "export_up": "Y",
+    "export_forward": "-Z",
+    "note": "glTF converts Z up to Y up; a subject facing -Y in Blender faces +Z in glTF"
+  },
+  "target_height_m": 12.4,
+  "bounds_m": {
+    "min": [
+      -12.1461,
+      -70.0,
+      0.0
+    ],
+    "max": [
+      12.1461,
+      40.0,
+      12.4
+    ],
+    "size": [
+      24.2922,
+      110.0,
+      12.4
+    ]
+  },
+  "files": {
+    "all": "exports/with_road/AR_OAUGate_WithRoad.fbx"
+  },
+  "lods": [
+    {
+      "level": 0,
+      "objects": [
+        "AR_OAUGate_RoofSlab_C_LOD0",
+        "AR_OAUGate_FasciaBand_C_LOD0",
+        "AR_OAUGate_Fascia_C_LOD0",
+        "AR_OAUGate_RoofSlab_L_LOD0",
+        "AR_OAUGate_FasciaBand_L_LOD0",
+        "AR_OAUGate_Fascia_L_LOD0",
+        "AR_OAUGate_RoofSlab_R_LOD0",
+        "AR_OAUGate_FasciaBand_R_LOD0",
+        "AR_OAUGate_Fascia_R_LOD0",
+        "AR_OAUGate_Pier_L_36_LOD0",
+        "AR_OAUGate_Pier_L_66_LOD0",
+        "AR_OAUGate_BackWall_L_LOD0",
+        "AR_OAUGate_Pier_R_36_LOD0",
+        "AR_OAUGate_Pier_R_66_LOD0",
+        "AR_OAUGate_BackWall_R_LOD0",
+        "AR_OAUGate_Pillar_L_LOD0",
+        "AR_OAUGate_Pillar_R_LOD0",
+        "AR_OAUGate_Crossbar_LOD0",
+        "AR_OAUGate_Crest_LOD0",
+        "AR_OAUGate_SealBlock_LOD0",
+        "AR_OAUGate_Seal_LOD0",
+        "AR_OAUGate_ArchWindow_LOD0",
+        "AR_OAUGate_RearBlock_LOD0",
+        "AR_OAUGate_Cable_L0_LOD0",
+        "AR_OAUGate_Cable_L1_LOD0",
+        "AR_OAUGate_Cable_L2_LOD0",
+        "AR_OAUGate_Cable_L3_LOD0",
+        "AR_OAUGate_Cable_L4_LOD0",
+        "AR_OAUGate_Cable_R0_LOD0",
+        "AR_OAUGate_Cable_R1_LOD0",
+        "AR_OAUGate_Cable_R2_LOD0",
+        "AR_OAUGate_Cable_R3_LOD0",
+        "AR_OAUGate_Cable_R4_LOD0",
+        "AR_OAUGate_SideGate_L_LOD0",
+        "AR_OAUGate_SideGate_R_LOD0",
+        "AR_OAUGate_CrestFace_LOD0",
+        "AR_OAUGate_CrestBoss_LOD0",
+        "AR_OAUGate_ArchGlass_LOD0",
+        "AR_OAUGate_ArchGlassTop_LOD0",
+        "AR_OAUGate_PaneFrame_L_LOD0",
+        "AR_OAUGate_PaneGlass_L_LOD0",
+        "AR_OAUGate_PaneFrame_R_LOD0",
+        "AR_OAUGate_PaneGlass_R_LOD0",
+        "AR_OAUGate_RearLip_LOD0",
+        "AR_OAUGate_Booth_LOD0",
+        "AR_OAUGate_BoothRoof_LOD0",
+        "AR_OAUGate_BoothDoor_LOD0",
+        "AR_OAUGate_BoothWindow_LOD0",
+        "AR_OAUGate_BackSeal_LOD0",
+        "AR_OAUGate_Road_L_LOD0",
+        "AR_OAUGate_Edge_L_204_LOD0",
+        "AR_OAUGate_Edge_L_525_LOD0",
+        "AR_OAUGate_CurbFront_L_LOD0",
+        "AR_OAUGate_CurbRear_L_LOD0",
+        "AR_OAUGate_Road_R_LOD0",
+        "AR_OAUGate_Edge_R_204_LOD0",
+        "AR_OAUGate_Edge_R_525_LOD0",
+        "AR_OAUGate_CurbFront_R_LOD0",
+        "AR_OAUGate_CurbRear_R_LOD0",
+        "AR_OAUGate_Median_LOD0",
+        "AR_OAUGate_Topiary_0_LOD0",
+        "AR_OAUGate_Topiary_1_LOD0",
+        "AR_OAUGate_Topiary_2_LOD0"
+      ],
+      "tris": 2828
+    }
+  ],
+  "materials": [
+    "AR_OAUGate_Asphalt",
+    "AR_OAUGate_Cream",
+    "AR_OAUGate_Curb",
+    "AR_OAUGate_DarkConcrete",
+    "AR_OAUGate_Glass",
+    "AR_OAUGate_GoldMetal",
+    "AR_OAUGate_Grass",
+    "AR_OAUGate_GrayBlock",
+    "AR_OAUGate_Hedge",
+    "AR_OAUGate_PaintWhite",
+    "AR_OAUGate_SealPrint",
+    "AR_OAUGate_Steel",
+    "AR_OAUGate_Tan",
+    "AR_OAUGate_White"
+  ],
+  "textures": [
+    {
+      "name": "cream.png",
+      "size": [
+        256,
+        256
+      ],
+      "colorspace": "sRGB",
+      "packed": true,
+      "filepath": "AR_OAUGate/textures/cream.png"
+    },
+    {
+      "name": "seal.png",
+      "size": [
+        256,
+        256
+      ],
+      "colorspace": "sRGB",
+      "packed": true,
+      "filepath": "AR_OAUGate/textures/seal.png"
+    },
+    {
+      "name": "asphalt.png",
+      "size": [
+        256,
+        256
+      ],
+      "colorspace": "sRGB",
+      "packed": true,
+      "filepath": "AR_OAUGate/textures/asphalt.png"
+    }
+  ],
+  "texture_contract": {
+    "basecolor": "sRGB",
+    "normal": "Non-Color, tangent space, OpenGL +Y",
+    "roughness": "Non-Color",
+    "metallic": "Non-Color",
+    "ao": "Non-Color",
+    "packed_channels": "none by default; document any ORM packing here"
+  },
+  "skeleton": [],
+  "sockets": [
+    {
+      "name": "SOCKET_banner_L",
+      "parent": null,
+      "parent_bone": null,
+      "world_location": [
+        -1.25,
+        1.2,
+        11.5
+      ],
+      "world_rotation_deg": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "axes": "local +Y forward of the attachment, +Z up",
+      "props": {
+        "owner": "phase:03_forms"
+      }
+    },
+    {
+      "name": "SOCKET_gate_hinge_L",
+      "parent": null,
+      "parent_bone": null,
+      "world_location": [
+        -8.2151,
+        3.3942,
+        0.1
+      ],
+      "world_rotation_deg": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "axes": "local +Y forward of the attachment, +Z up",
+      "props": {
+        "owner": "phase:03_forms"
+      }
+    },
+    {
+      "name": "SOCKET_banner_R",
+      "parent": null,
+      "parent_bone": null,
+      "world_location": [
+        1.25,
+        1.2,
+        11.5
+      ],
+      "world_rotation_deg": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "axes": "local +Y forward of the attachment, +Z up",
+      "props": {
+        "owner": "phase:03_forms"
+      }
+    },
+    {
+      "name": "SOCKET_gate_hinge_R",
+      "parent": null,
+      "parent_bone": null,
+      "world_location": [
+        8.2151,
+        3.3942,
+        0.1
+      ],
+      "world_rotation_deg": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "axes": "local +Y forward of the attachment, +Z up",
+      "props": {
+        "owner": "phase:03_forms"
+      }
+    },
+    {
+      "name": "SOCKET_crest",
+      "parent": null,
+      "parent_bone": null,
+      "world_location": [
+        0.0,
+        0.0,
+        11.45
+      ],
+      "world_rotation_deg": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "axes": "local +Y forward of the attachment, +Z up",
+      "props": {
+        "owner": "phase:03_forms"
+      }
+    },
+    {
+      "name": "SOCKET_road_front_end_L",
+      "parent": null,
+      "parent_bone": null,
+      "world_location": [
+        -3.65,
+        -70.0,
+        0.0
+      ],
+      "world_rotation_deg": [
+        0.0,
+        -0.0,
+        -180.0
+      ],
+      "axes": "local +Y forward of the attachment, +Z up",
+      "props": {
+        "owner": "phase:03b_rear_roads",
+        "width_m": 3.5,
+        "direction": "one-way, either"
+      }
+    },
+    {
+      "name": "SOCKET_road_front_end_R",
+      "parent": null,
+      "parent_bone": null,
+      "world_location": [
+        3.65,
+        -70.0,
+        0.0
+      ],
+      "world_rotation_deg": [
+        0.0,
+        -0.0,
+        -180.0
+      ],
+      "axes": "local +Y forward of the attachment, +Z up",
+      "props": {
+        "owner": "phase:03b_rear_roads",
+        "width_m": 3.5,
+        "direction": "one-way, either"
+      }
+    },
+    {
+      "name": "SOCKET_road_rear_end_L",
+      "parent": null,
+      "parent_bone": null,
+      "world_location": [
+        -3.65,
+        40.0,
+        0.0
+      ],
+      "world_rotation_deg": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "axes": "local +Y forward of the attachment, +Z up",
+      "props": {
+        "owner": "phase:03b_rear_roads",
+        "width_m": 3.5,
+        "direction": "one-way, either"
+      }
+    },
+    {
+      "name": "SOCKET_road_rear_end_R",
+      "parent": null,
+      "parent_bone": null,
+      "world_location": [
+        3.65,
+        40.0,
+        0.0
+      ],
+      "world_rotation_deg": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "axes": "local +Y forward of the attachment, +Z up",
+      "props": {
+        "owner": "phase:03b_rear_roads",
+        "width_m": 3.5,
+        "direction": "one-way, either"
+      }
+    }
+  ],
+  "colliders": [
+    {
+      "name": "COL_pier_L",
+      "shape": "mesh",
+      "tris": 12,
+      "bounds_m": {
+        "min": [
+          -7.6052,
+          3.0055,
+          0.0
+        ],
+        "max": [
+          -5.091,
+          5.5197,
+          4.4
+        ],
+        "size": [
+          2.5142,
+          2.5142,
+          4.4
+        ]
+      }
+    },
+    {
+      "name": "COL_pillar_L",
+      "shape": "mesh",
+      "tris": 12,
+      "bounds_m": {
+        "min": [
+          -1.7,
+          0.8,
+          0.0
+        ],
+        "max": [
+          -0.8,
+          1.6,
+          11.5
+        ],
+        "size": [
+          0.9,
+          0.8,
+          11.5
+        ]
+      }
+    },
+    {
+      "name": "COL_pier_R",
+      "shape": "mesh",
+      "tris": 12,
+      "bounds_m": {
+        "min": [
+          5.091,
+          3.0055,
+          0.0
+        ],
+        "max": [
+          7.6052,
+          5.5197,
+          4.4
+        ],
+        "size": [
+          2.5142,
+          2.5142,
+          4.4
+        ]
+      }
+    },
+    {
+      "name": "COL_pillar_R",
+      "shape": "mesh",
+      "tris": 12,
+      "bounds_m": {
+        "min": [
+          0.8,
+          0.8,
+          0.0
+        ],
+        "max": [
+          1.7,
+          1.6,
+          11.5
+        ],
+        "size": [
+          0.9,
+          0.8,
+          11.5
+        ]
+      }
+    },
+    {
+      "name": "COL_sealblock",
+      "shape": "mesh",
+      "tris": 12,
+      "bounds_m": {
+        "min": [
+          -1.875,
+          0.6,
+          2.9
+        ],
+        "max": [
+          1.875,
+          1.6,
+          5.4
+        ],
+        "size": [
+          3.75,
+          1.0,
+          2.5
+        ]
+      }
+    },
+    {
+      "name": "COL_roof_centre",
+      "shape": "mesh",
+      "tris": 12,
+      "bounds_m": {
+        "min": [
+          -6.5,
+          0.0,
+          4.4
+        ],
+        "max": [
+          6.5,
+          3.4,
+          5.7
+        ],
+        "size": [
+          13.0,
+          3.4,
+          1.3
+        ]
+      }
+    },
+    {
+      "name": "COL_booth",
+      "shape": "mesh",
+      "tris": 12,
+      "bounds_m": {
+        "min": [
+          -1.9,
+          3.2,
+          0.0
+        ],
+        "max": [
+          1.9,
+          6.0,
+          3.2
+        ],
+        "size": [
+          3.8,
+          2.8,
+          3.2
+        ]
+      }
+    },
+    {
+      "name": "COL_road_L",
+      "shape": "mesh",
+      "tris": 12,
+      "bounds_m": {
+        "min": [
+          -5.4,
+          -70.0,
+          0.0
+        ],
+        "max": [
+          -1.9,
+          40.0,
+          0.05
+        ],
+        "size": [
+          3.5,
+          110.0,
+          0.05
+        ]
+      }
+    },
+    {
+      "name": "COL_road_R",
+      "shape": "mesh",
+      "tris": 12,
+      "bounds_m": {
+        "min": [
+          1.9,
+          -70.0,
+          0.0
+        ],
+        "max": [
+          5.4,
+          40.0,
+          0.05
+        ],
+        "size": [
+          3.5,
+          110.0,
+          0.05
+        ]
+      }
+    },
+    {
+      "name": "COL_median",
+      "shape": "mesh",
+      "tris": 12,
+      "bounds_m": {
+        "min": [
+          -1.9,
+          -70.0,
+          0.0
+        ],
+        "max": [
+          1.9,
+          40.0,
+          0.12
+        ],
+        "size": [
+          3.8,
+          110.0,
+          0.12
+        ]
+      }
+    }
+  ],
+  "animation_contract": "animation-contract.json",
+  "inferred_from_no_reference": [
+    "rear of drum",
+    "inner wall",
+    "guard booth and rear seal; pillar depth; crest design; cable anchors; scale from one car-height cue; wing length; road layout and widths"
+  ],
+  "dependencies": []
+}

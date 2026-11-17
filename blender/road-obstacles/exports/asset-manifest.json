@@ -1,0 +1,284 @@
+{
+  "asset": "PR_RoadObstacles",
+  "generated": "2026-11-17T20:55:20",
+  "blender": "5.2.0 LTS",
+  "source": "PR_RoadObstacles/PR_RoadObstacles_master.blend",
+  "target_engine": "unity",
+  "units": {
+    "system": "METRIC",
+    "scale_length": 1.0,
+    "authoring_up": "Z",
+    "authoring_forward": "-Y",
+    "export_up": "Y",
+    "export_forward": "+Z",
+    "note": "glTF converts Z up to Y up; a subject facing -Y in Blender faces +Z in glTF"
+  },
+  "target_height_m": 2.2,
+  "bounds_m": {
+    "min": [
+      -0.19,
+      -2.3693,
+      -0.005
+    ],
+    "max": [
+      41.4387,
+      8.12,
+      2.2393
+    ],
+    "size": [
+      41.6287,
+      10.4893,
+      2.2443
+    ]
+  },
+  "files": {
+    "all": "exports/PR_RoadObstacles.glb"
+  },
+  "lods": [
+    {
+      "level": 0,
+      "objects": [
+        "PR_Cone",
+        "PR_JerseyBarrier",
+        "PR_Barrel",
+        "PR_CrateStack",
+        "PR_RoadBlock",
+        "PR_SpeedBump",
+        "PR_JumpRamp",
+        "PR_BrokenCar",
+        "PR_TireStack"
+      ],
+      "tris": 1096
+    }
+  ],
+  "materials": [
+    "PR_Black",
+    "PR_Concrete",
+    "PR_Metal",
+    "PR_Orange",
+    "PR_RampSurface",
+    "PR_Red",
+    "PR_Rust",
+    "PR_White",
+    "PR_Wood",
+    "PR_Wreck",
+    "PR_WreckGlass",
+    "PR_Yellow"
+  ],
+  "textures": [],
+  "texture_contract": {
+    "basecolor": "sRGB",
+    "normal": "Non-Color, tangent space, OpenGL +Y",
+    "roughness": "Non-Color",
+    "metallic": "Non-Color",
+    "ao": "Non-Color",
+    "packed_channels": "none by default; document any ORM packing here"
+  },
+  "skeleton": [],
+  "sockets": [],
+  "colliders": [
+    {
+      "name": "COL_Cone",
+      "shape": "mesh",
+      "tris": 12,
+      "bounds_m": {
+        "min": [
+          -0.19,
+          -0.19,
+          0.0
+        ],
+        "max": [
+          0.19,
+          0.19,
+          0.74
+        ],
+        "size": [
+          0.38,
+          0.38,
+          0.74
+        ]
+      }
+    },
+    {
+      "name": "COL_JerseyBarrier",
+      "shape": "mesh",
+      "tris": 12,
+      "bounds_m": {
+        "min": [
+          4.7,
+          -1.5,
+          0.0
+        ],
+        "max": [
+          5.3,
+          1.5,
+          0.8
+        ],
+        "size": [
+          0.6,
+          3.0,
+          0.8
+        ]
+      }
+    },
+    {
+      "name": "COL_Barrel",
+      "shape": "mesh",
+      "tris": 12,
+      "bounds_m": {
+        "min": [
+          9.7,
+          -0.3,
+          0.0
+        ],
+        "max": [
+          10.3,
+          0.3,
+          0.9
+        ],
+        "size": [
+          0.6,
+          0.6,
+          0.9
+        ]
+      }
+    },
+    {
+      "name": "COL_CrateStack",
+      "shape": "mesh",
+      "tris": 12,
+      "bounds_m": {
+        "min": [
+          13.95,
+          -0.55,
+          0.0
+        ],
+        "max": [
+          16.05,
+          0.55,
+          2.0
+        ],
+        "size": [
+          2.1,
+          1.1,
+          2.0
+        ]
+      }
+    },
+    {
+      "name": "COL_RoadBlock",
+      "shape": "mesh",
+      "tris": 12,
+      "bounds_m": {
+        "min": [
+          18.5,
+          -0.45,
+          0.0
+        ],
+        "max": [
+          21.5,
+          0.45,
+          1.1
+        ],
+        "size": [
+          3.0,
+          0.9,
+          1.1
+        ]
+      }
+    },
+    {
+      "name": "COL_SpeedBump",
+      "shape": "mesh",
+      "tris": 12,
+      "bounds_m": {
+        "min": [
+          23.6,
+          -0.35,
+          0.0
+        ],
+        "max": [
+          26.4,
+          0.35,
+          0.1
+        ],
+        "size": [
+          2.8,
+          0.7,
+          0.1
+        ]
+      }
+    },
+    {
+      "name": "COL_JumpRamp",
+      "shape": "mesh",
+      "tris": 8,
+      "bounds_m": {
+        "min": [
+          28.5,
+          0.0,
+          0.0
+        ],
+        "max": [
+          31.5,
+          8.0,
+          2.2
+        ],
+        "size": [
+          3.0,
+          8.0,
+          2.2
+        ]
+      }
+    },
+    {
+      "name": "COL_BrokenCar",
+      "shape": "mesh",
+      "tris": 12,
+      "bounds_m": {
+        "min": [
+          35.05,
+          -2.15,
+          0.0
+        ],
+        "max": [
+          36.95,
+          2.15,
+          1.4
+        ],
+        "size": [
+          1.9,
+          4.3,
+          1.4
+        ]
+      }
+    },
+    {
+      "name": "COL_TireStack",
+      "shape": "mesh",
+      "tris": 12,
+      "bounds_m": {
+        "min": [
+          40.55,
+          -0.45,
+          0.0
+        ],
+        "max": [
+          41.45,
+          0.45,
+          0.84
+        ],
+        "size": [
+          0.9,
+          0.9,
+          0.84
+        ]
+      }
+    }
+  ],
+  "animation_contract": "animation-contract.json",
+  "inferred_from_no_reference": [
+    "all dimensions (no references)"
+  ],
+  "dependencies": []
+}

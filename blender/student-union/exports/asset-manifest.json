@@ -1,0 +1,267 @@
+{
+  "asset": "AR_StudentUnion",
+  "generated": "2026-11-17T22:07:26",
+  "blender": "5.2.0 LTS",
+  "source": "AR_StudentUnion/AR_StudentUnion_master.blend",
+  "target_engine": "unity",
+  "units": {
+    "system": "METRIC",
+    "scale_length": 1.0,
+    "authoring_up": "Z",
+    "authoring_forward": "-Y",
+    "export_up": "Y",
+    "export_forward": "+Z",
+    "note": "glTF converts Z up to Y up; a subject facing -Y in Blender faces +Z in glTF"
+  },
+  "target_height_m": 14.0,
+  "bounds_m": {
+    "min": [
+      -41.5,
+      -32.7,
+      0.0
+    ],
+    "max": [
+      59.4708,
+      35.0,
+      14.6
+    ],
+    "size": [
+      100.9708,
+      67.7,
+      14.6
+    ]
+  },
+  "files": {
+    "all": "AR_StudentUnion/exports/AR_StudentUnion.glb"
+  },
+  "lods": [
+    {
+      "level": 0,
+      "objects": [
+        "AR_StudentUnion_Plaza_LOD0",
+        "AR_StudentUnion_Wing_Body_LOD0",
+        "AR_StudentUnion_Wing_Roof_LOD0",
+        "AR_StudentUnion_Core1_LOD0",
+        "AR_StudentUnion_Core2_LOD0",
+        "AR_StudentUnion_Hall_Base_LOD0",
+        "AR_StudentUnion_Hall_Roof_LOD0",
+        "AR_StudentUnion_Rear_Block_A_LOD0",
+        "AR_StudentUnion_Rear_Block_B_LOD0",
+        "AR_StudentUnion_Court_Tier1_LOD0",
+        "AR_StudentUnion_Court_Tier2_LOD0",
+        "AR_StudentUnion_Court_Tier3_LOD0",
+        "AR_StudentUnion_Fascia_Front_LOD0",
+        "AR_StudentUnion_Fascia_Right_LOD0",
+        "AR_StudentUnion_Fascia_Back_LOD0",
+        "AR_StudentUnion_Fascia_Left_LOD0",
+        "AR_StudentUnion_Hall_Void_LOD0",
+        "AR_StudentUnion_Hall_Column1_LOD0",
+        "AR_StudentUnion_Hall_Column2_LOD0",
+        "AR_StudentUnion_Hall_Column3_LOD0",
+        "AR_StudentUnion_Hall_Column4_LOD0",
+        "AR_StudentUnion_Hall_Column5_LOD0",
+        "AR_StudentUnion_Hall_Column6_LOD0",
+        "AR_StudentUnion_Hall_Column7_LOD0",
+        "AR_StudentUnion_Steps1_LOD0",
+        "AR_StudentUnion_Steps2_LOD0",
+        "AR_StudentUnion_Steps3_LOD0",
+        "AR_StudentUnion_Steps4_LOD0",
+        "AR_StudentUnion_Wing_Column1_LOD0",
+        "AR_StudentUnion_Wing_Column2_LOD0",
+        "AR_StudentUnion_Wing_Column3_LOD0",
+        "AR_StudentUnion_Wing_Column4_LOD0",
+        "AR_StudentUnion_Wing_Column5_LOD0",
+        "AR_StudentUnion_Wing_Column6_LOD0",
+        "AR_StudentUnion_Wing_Column7_LOD0",
+        "AR_StudentUnion_Wing_Beam_LOD0",
+        "AR_StudentUnion_Wing_Plinth_LOD0",
+        "AR_StudentUnion_Wing_Mural1_LOD0",
+        "AR_StudentUnion_Wing_Mural2_LOD0",
+        "AR_StudentUnion_Wing_MuralSide_LOD0",
+        "AR_StudentUnion_Wing_Glass_LOD0",
+        "AR_StudentUnion_Wing_Sawtooth1_LOD0",
+        "AR_StudentUnion_Wing_Sawtooth2_LOD0",
+        "AR_StudentUnion_Wing_Sawtooth3_LOD0",
+        "AR_StudentUnion_Wing_Sawtooth4_LOD0",
+        "AR_StudentUnion_Wing_Sawtooth5_LOD0",
+        "AR_StudentUnion_Wing_Sawtooth6_LOD0",
+        "AR_StudentUnion_Wing_Plant_LOD0",
+        "AR_StudentUnion_Core1_Slot_LOD0",
+        "AR_StudentUnion_Core1_Slot2_LOD0",
+        "AR_StudentUnion_Core1_Cap_LOD0",
+        "AR_StudentUnion_Core1_Band_LOD0",
+        "AR_StudentUnion_Core2_Slot_LOD0",
+        "AR_StudentUnion_Core2_Slot2_LOD0",
+        "AR_StudentUnion_Core2_Cap_LOD0",
+        "AR_StudentUnion_Core2_Band_LOD0",
+        "AR_StudentUnion_Court_Balustrade_LOD0",
+        "AR_StudentUnion_Court_Floor_LOD0",
+        "AR_StudentUnion_Court_Ramp_LOD0",
+        "AR_StudentUnion_Planter1_Kerb_LOD0",
+        "AR_StudentUnion_Planter1_Lawn_LOD0",
+        "AR_StudentUnion_Planter2_Kerb_LOD0",
+        "AR_StudentUnion_Planter2_Lawn_LOD0"
+      ],
+      "tris": 2620
+    }
+  ],
+  "materials": [
+    "SU_BlackSteel",
+    "SU_Concrete",
+    "SU_Cream",
+    "SU_DarkVoid",
+    "SU_Glass",
+    "SU_Lawn",
+    "SU_Paving",
+    "SU_RoofTan",
+    "SU_Timber",
+    "SU_WhitePaint",
+    "SU_Zebra"
+  ],
+  "textures": [
+    {
+      "name": "paving.png",
+      "size": [
+        512,
+        512
+      ],
+      "colorspace": "sRGB",
+      "packed": true,
+      "filepath": "AR_StudentUnion/textures/paving.png"
+    },
+    {
+      "name": "roof_tan.png",
+      "size": [
+        512,
+        512
+      ],
+      "colorspace": "sRGB",
+      "packed": true,
+      "filepath": "AR_StudentUnion/textures/roof_tan.png"
+    },
+    {
+      "name": "timber_orange.png",
+      "size": [
+        512,
+        512
+      ],
+      "colorspace": "sRGB",
+      "packed": true,
+      "filepath": "AR_StudentUnion/textures/timber_orange.png"
+    },
+    {
+      "name": "zebra.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "colorspace": "sRGB",
+      "packed": true,
+      "filepath": "AR_StudentUnion/textures/zebra.png"
+    }
+  ],
+  "texture_contract": {
+    "basecolor": "sRGB",
+    "normal": "Non-Color, tangent space, OpenGL +Y",
+    "roughness": "Non-Color",
+    "metallic": "Non-Color",
+    "ao": "Non-Color",
+    "packed_channels": "none by default; document any ORM packing here"
+  },
+  "skeleton": [],
+  "sockets": [
+    {
+      "name": "SOCKET_entrance",
+      "parent": null,
+      "parent_bone": null,
+      "world_location": [
+        17.0,
+        -21.0,
+        0.3
+      ],
+      "world_rotation_deg": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "axes": "local +Y forward of the attachment, +Z up",
+      "props": {
+        "owner": "phase:03_forms"
+      }
+    },
+    {
+      "name": "SOCKET_finish_line",
+      "parent": null,
+      "parent_bone": null,
+      "world_location": [
+        17.0,
+        -34.0,
+        0.0
+      ],
+      "world_rotation_deg": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "axes": "local +Y forward of the attachment, +Z up",
+      "props": {
+        "owner": "phase:03_forms",
+        "note": "finish arch centre line, road runs +Y into the plaza"
+      }
+    }
+  ],
+  "colliders": [
+    {
+      "name": "COL_footprint",
+      "shape": "mesh",
+      "tris": 12,
+      "bounds_m": {
+        "min": [
+          -29.0,
+          -23.0,
+          0.0
+        ],
+        "max": [
+          45.0,
+          23.0,
+          11.5
+        ],
+        "size": [
+          74.0,
+          46.0,
+          11.5
+        ]
+      }
+    },
+    {
+      "name": "COL_court",
+      "shape": "mesh",
+      "tris": 12,
+      "bounds_m": {
+        "min": [
+          35.0,
+          -26.0,
+          0.0
+        ],
+        "max": [
+          65.0,
+          -10.0,
+          4.5
+        ],
+        "size": [
+          30.0,
+          16.0,
+          4.5
+        ]
+      }
+    }
+  ],
+  "animation_contract": "animation-contract.json",
+  "inferred_from_no_reference": [
+    "rear and left facades",
+    "interior",
+    "exact heights and mural pattern",
+    "building identity assumed to be the Students Union"
+  ],
+  "dependencies": []
+}

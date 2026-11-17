@@ -1,0 +1,218 @@
+{
+  "asset": "VH_RocketRoadster",
+  "generated": "2026-11-17T20:55:32",
+  "blender": "5.2.0 LTS",
+  "source": "VH_RocketRoadster/VH_RocketRoadster_master.blend",
+  "target_engine": "unity",
+  "units": {
+    "system": "METRIC",
+    "scale_length": 1.0,
+    "authoring_up": "Z",
+    "authoring_forward": "-Y",
+    "export_up": "Y",
+    "export_forward": "+Z",
+    "note": "glTF converts Z up to Y up; a subject facing -Y in Blender faces +Z in glTF"
+  },
+  "target_height_m": 1.14,
+  "bounds_m": {
+    "min": [
+      -0.95,
+      -2.205,
+      0.0
+    ],
+    "max": [
+      0.95,
+      5.18,
+      1.18
+    ],
+    "size": [
+      1.9,
+      7.385,
+      1.18
+    ]
+  },
+  "files": {
+    "all": "exports/VH_RocketRoadster.glb"
+  },
+  "lods": [
+    {
+      "level": 0,
+      "objects": [
+        "VH_RocketRoadster_Body_LOD0",
+        "VH_RocketRoadster_Cabin_LOD0",
+        "VH_RocketRoadster_Splitter_LOD0",
+        "VH_RocketRoadster_Diffuser_LOD0",
+        "VH_RocketRoadster_Tire_FL_LOD0",
+        "VH_RocketRoadster_Rim_FL_LOD0",
+        "VH_RocketRoadster_Tire_FR_LOD0",
+        "VH_RocketRoadster_Rim_FR_LOD0",
+        "VH_RocketRoadster_Tire_RL_LOD0",
+        "VH_RocketRoadster_Rim_RL_LOD0",
+        "VH_RocketRoadster_Tire_RR_LOD0",
+        "VH_RocketRoadster_Rim_RR_LOD0",
+        "VH_RocketRoadster_Headlight_L_LOD0",
+        "VH_RocketRoadster_Headlight_R_LOD0",
+        "VH_RocketRoadster_Taillight_LOD0",
+        "VH_RocketRoadster_Nozzle_C_LOD0",
+        "VH_RocketRoadster_FlameOuter_C_LOD0",
+        "VH_RocketRoadster_FlameCore_C_LOD0",
+        "VH_RocketRoadster_Nozzle_L_LOD0",
+        "VH_RocketRoadster_FlameOuter_L_LOD0",
+        "VH_RocketRoadster_FlameCore_L_LOD0",
+        "VH_RocketRoadster_Nozzle_R_LOD0",
+        "VH_RocketRoadster_FlameOuter_R_LOD0",
+        "VH_RocketRoadster_FlameCore_R_LOD0",
+        "VH_RocketRoadster_TankFairing_LOD0"
+      ],
+      "tris": 1236
+    }
+  ],
+  "materials": [
+    "VH_FlameCore",
+    "VH_FlameOuter",
+    "VH_Glass",
+    "VH_Headlight",
+    "VH_Nozzle",
+    "VH_Paint",
+    "VH_Rim",
+    "VH_Taillight",
+    "VH_Tire",
+    "VH_Trim"
+  ],
+  "textures": [],
+  "texture_contract": {
+    "basecolor": "sRGB",
+    "normal": "Non-Color, tangent space, OpenGL +Y",
+    "roughness": "Non-Color",
+    "metallic": "Non-Color",
+    "ao": "Non-Color",
+    "packed_channels": "none by default; document any ORM packing here"
+  },
+  "skeleton": [],
+  "sockets": [
+    {
+      "name": "SOCKET_chase_cam",
+      "parent": null,
+      "parent_bone": null,
+      "world_location": [
+        0.0,
+        6.0,
+        2.6
+      ],
+      "world_rotation_deg": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "axes": "local +Y forward of the attachment, +Z up",
+      "props": {
+        "owner": "phase:02_car"
+      }
+    },
+    {
+      "name": "SOCKET_driver",
+      "parent": null,
+      "parent_bone": null,
+      "world_location": [
+        -0.38,
+        0.45,
+        0.85
+      ],
+      "world_rotation_deg": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "axes": "local +Y forward of the attachment, +Z up",
+      "props": {
+        "owner": "phase:02_car"
+      }
+    },
+    {
+      "name": "SOCKET_thruster_C",
+      "parent": null,
+      "parent_bone": null,
+      "world_location": [
+        0.0,
+        2.58,
+        0.5
+      ],
+      "world_rotation_deg": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "axes": "local +Y forward of the attachment, +Z up",
+      "props": {
+        "owner": "phase:02_car"
+      }
+    },
+    {
+      "name": "SOCKET_thruster_L",
+      "parent": null,
+      "parent_bone": null,
+      "world_location": [
+        -0.58,
+        2.4,
+        0.5
+      ],
+      "world_rotation_deg": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "axes": "local +Y forward of the attachment, +Z up",
+      "props": {
+        "owner": "phase:02_car"
+      }
+    },
+    {
+      "name": "SOCKET_thruster_R",
+      "parent": null,
+      "parent_bone": null,
+      "world_location": [
+        0.58,
+        2.4,
+        0.5
+      ],
+      "world_rotation_deg": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "axes": "local +Y forward of the attachment, +Z up",
+      "props": {
+        "owner": "phase:02_car"
+      }
+    }
+  ],
+  "colliders": [
+    {
+      "name": "COL_body",
+      "shape": "mesh",
+      "tris": 12,
+      "bounds_m": {
+        "min": [
+          -0.95,
+          -2.13,
+          0.0
+        ],
+        "max": [
+          0.95,
+          2.13,
+          1.0
+        ],
+        "size": [
+          1.9,
+          4.26,
+          1.0
+        ]
+      }
+    }
+  ],
+  "animation_contract": "animation-contract.json",
+  "inferred_from_no_reference": [
+    "all dimensions and shapes (no references); thruster design"
+  ],
+  "dependencies": []
+}
