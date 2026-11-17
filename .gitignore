@@ -15,10 +15,6 @@ __pycache__/
 .claude/
 .cursor/
 
-# Third-party car model: no license, so it is not shipped.
-# Put your own car glTF at game/assets/car_chassis.glb and car_wheel.glb to use it locally.
-game/assets/car_*.glb
-
 # Large downloaded source packs (re-download, see CREDITS.md)
 blender/game-assets/downloads/
 downloads/

@@ -49,6 +49,7 @@ Open http://localhost:8000
 
 ```
 game/               The web game (index.html, main.js, vendored three.js, assets/)
+classic/            The first version of the game, with sound
 blender/
   gate/             OAU main gate: .blend, build scripts, glTF/FBX exports, textures
   level/            Full level scene (Level_GateRun.blend) and the scripts that build it
@@ -71,10 +72,15 @@ blender -b -P blender/gate/build/02_blockout.py
 
 Exports used by the game live in each folder's `exports/`.
 
-## Using your own car
+## The car
 
-The car model from development is not shipped (no license). The game uses a placeholder car
-unless you add `game/assets/car_chassis.glb` and `game/assets/car_wheel.glb`.
+The Tesla Roadster in `game/assets/` is from a public GitHub repo with no license (see
+[CREDITS.md](CREDITS.md)). Swap it for your own by replacing `car_chassis.glb` and `car_wheel.glb`.
+If the files are missing the game falls back to a simple placeholder car.
+
+## The first version
+
+`classic/` is the first version of the game (with sound effects, stunts and the CGPA story).
 
 ## Contributing
 

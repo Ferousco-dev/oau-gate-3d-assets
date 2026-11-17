@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<meta name="theme-color" content="#efe4c2">
+<title>OAU Run</title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app" data-mode="landing">
+  <div id="canvasHost"></div>
+
+  <header id="top">
+    <div id="who"><div id="logo" aria-label="OAU Run">OAU<span>RUN</span></div><small id="hi"></small></div>
+    <div id="wallet" aria-live="polite"><small>CGPA</small><b id="cgpa">5.00</b></div>
+    <button id="mute" aria-label="Sound">🔊</button>
+  </header>
+
+  <!-- 1. landing: just your name -->
+  <section id="landing">
+    <div class="card">
+      <p class="kicker">Obafemi Awolowo University</p>
+      <h1>OAU<span>RUN</span></h1>
+      <p class="sub">Drive from the main gate to the Students' Union before the Yellow House and White House catch you.</p>
+      <label for="name">What is your name?</label>
+      <input id="name" maxlength="16" autocomplete="off" placeholder="e.g. Tola" enterkeyhint="go">
+      <button id="enter" class="cta" disabled>Loading campus…</button>
+      <div id="loadbar"><u id="gpct"></u></div>
+    </div>
+  </section>
+
+  <!-- 2. lobby: the gate, the crowd, your car -->
+  <div id="labels"></div>
+  <div id="lobbyHud"><p class="hint">Tap a hawker to buy a ticket (<b>0.4 CGPA</b>) · drag to look around · scroll to zoom</p></div>
+
+  <section id="locked" class="overlay">
+    <div class="card">
+      <div class="big">😮‍💨</div>
+      <h1>Your CGPA don finish</h1>
+      <p class="sub">You no fit buy another ticket today. Come back tomorrow, your CGPA go reset.</p>
+      <div id="count">--:--:--</div>
+    </div>
+  </section>
+
+  <div id="countdown"></div>
+
+  <!-- 3. the drive -->
+  <div id="hud">
+    <div class="gtop">
+      <div class="gbar"><span>Road to SUB</span><i><u id="gprog"></u></i></div>
+      <div class="gbar warn"><span>Houses behind you</span><i><u id="ggap"></u></i></div>
+      <button id="gpause" aria-label="Pause">❚❚</button>
+    </div>
+    <div id="mirror"><b>BEHIND</b></div><div id="gtoast"></div><div id="gflash"></div>
+    <div id="combo"></div><div id="heat">HEAT ☆☆☆☆☆</div><div id="gspeed">CGPA 5.00</div>
+    <button id="gboost" aria-label="Boost"><b>BOOST</b><i><u id="gbooststat"></u></i></button>
+  </div>
+
+  <section id="pause" class="overlay">
+    <div class="card"><h1>Paused</h1><button id="resume" class="cta">Resume</button><button id="quit" class="ghost">Quit run (ticket is lost)</button></div>
+  </section>
+  <section id="end" class="overlay"></section>
+
+  <!-- ticket sheet: drag the handle down or tap outside to close -->
+  <div id="scrim"></div>
+  <section id="sheet" aria-hidden="true">
+    <div id="grab"><i></i></div>
+    <div class="row">
+      <div class="ticket small"><b>OAU RUN</b><span>ADMIT ONE</span></div>
+      <div class="meta"><h2 id="shName">Mama Tola</h2><p id="shLine">"Ticket! Ticket! Last one!"</p></div>
+    </div>
+    <dl>
+      <div><dt>Ticket</dt><dd>0.40 CGPA</dd></div>
+      <div><dt>Your CGPA</dt><dd id="shBal">5.00</dd></div>
+      <div class="tot"><dt>After paying</dt><dd id="shAfter">4.60</dd></div>
+    </dl>
+    <button id="pay" class="cta">Pay 0.4 CGPA</button>
+    <button id="cancel" class="ghost">No, I dey go</button>
+  </section>
+</div>
+<script src="game.js"></script>
+<script type="module" src="game3d.js"></script>
+</body>
+</html>
